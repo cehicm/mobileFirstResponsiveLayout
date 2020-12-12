@@ -9,7 +9,9 @@ body {
     line-height: 1.5;
     text-align: center;
 }
-
+ul {
+    list-style-type: none;
+}
 img {
     display: block;
     width: 100%;
@@ -33,7 +35,7 @@ p {
     text-decoration: none;
     padding: 1em 2em;
     border: 1px solid #666666;
-    margin .5em 0;
+    margin: 0.5em 0;
 }
 
 btn:hover{
@@ -64,4 +66,62 @@ btn:hover{
 #showcase h1 {
     padding-top: 100px;
     padding-bottom: 0;
+}
+
+#showcase .content-wrap
+#section-a .content-wrap{
+padding: 0 1.5em;
+}
+
+#section-a{
+    background: #eaeaea;
+    color: #333333;
+    padding-bottom: 2em;
+}
+
+#section-b{
+    padding: 2em 1em 1em;
+}
+
+#section-b ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#section-b li{
+    margin-bottom: 1em;
+    background: #ffffff;
+    color: #333333;
+}
+
+.card-content {
+padding: 1.5em;
+}
+
+#section-c {
+    background: #ffffff;
+    color: #333333;
+    padding: 2em;
+}
+
+#section-d .box{
+    padding: 2em;
+    color: #ffffff;
+}
+
+#section-d .box:first-child {
+    background: #2690d2;
+}
+
+#main-footer {
+    padding: 2em;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+#main-footer a {
+    color: #2690d2;
+    text-decoration: none;
 }
